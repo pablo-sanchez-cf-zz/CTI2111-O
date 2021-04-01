@@ -1,1 +1,1 @@
-# fsu-scripting
+# SYSTEM SCRIPTING FUNDAMENTALS
