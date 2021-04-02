@@ -1,3 +1,7 @@
+# Pablo Sanchez
+# Python Version: 2.7.16
+# Data Types, Strings, String Methods & User Input
+
 # Strings
 name = "Pablo"
 # Numbers
