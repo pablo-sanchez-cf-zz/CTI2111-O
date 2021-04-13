@@ -48,7 +48,7 @@ if pattack == oattack:
     winner = "There is no Winner. It is a tie!"
 elif pattack == "dodge" and oattack == "parry":
     winner = "Winner is: " + player
-elif pattack == "arry" and oattack == "dodge":
+elif pattack == "parry" and oattack == "dodge":
     winner = "Winner is: " + opponent
 elif pattack == "parry" and oattack == "thrust":
     winner = "Winner is: " + player
