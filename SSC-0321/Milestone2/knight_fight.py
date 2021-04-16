@@ -124,7 +124,7 @@ In your own words, answer the following 4 questions on the use of the WHILE Loop
     1. What Condition will end the WHILE Loop? 
        The WHILE loop will break when the health of on the knights is less than 10. Otherwise it will continue to be True.     
     2. How is that Condition handled in the code?
-       It is handled by evaluating the value of gghealth and bghealth using IF/ELIF statements.
+       It is handled by evaluating the value of gghealth and bghealth using IF/ELIF multiple statements.
     3. What events happen inside the WHILE Loop?
        A Hit for good and bad guys are generated randomly. A damage is calulated. A health score is calculated.
     4. Why are gghealth & bghealth initially set outside the WHILE Loop?
