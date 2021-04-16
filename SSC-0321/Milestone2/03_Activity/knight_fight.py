@@ -113,9 +113,6 @@ if gghealth > bghealth:
 else:
     print "Congratulations " + badguy + "!"
 
-print goodguy + str(gghealth)
-print badguy + str(bghealth)
-
 
 # PART 2
 '''
