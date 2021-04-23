@@ -1,6 +1,6 @@
 # Pablo Sanchez
 # python 2.7.16
-# Milestone 1
+# Milestone 2: There Can Be Only One!
 
 '''This is a typical Paper, Rock, Scissors game, 
 that is played using Dodge, Parry, Thrust instead.
@@ -44,7 +44,7 @@ game = False
 
 while game == False:
     if ps >= 3 or os >= 3:
-        print "Game Over"
+        print "Game Over!"
         print "Final Score is: \n" 
         print player + " = " + str(ps)
         print opponent + " = " + str(os)
