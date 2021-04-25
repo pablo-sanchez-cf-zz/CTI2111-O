@@ -10,11 +10,10 @@ import time
 # Custom Functions
 # 2. ADD THE agecheck() CUSTOM FUNCTION YOU CREATED HERE
 def agecheck(a):
-    age = a
     print ("Confirming you're " + str(age) + " years old")
 
-a = int(raw_input("Enter age: "))
-agecheck(a)
+age = int(raw_input("Enter age: "))
+agecheck(age)
 
 ##################################################################################################
 # 3. DESCRIBE HOW THE INCLUDED countdown() FUNCTION WORKS
@@ -119,7 +118,7 @@ self_destruct(timer)
 
 
 # 6. LIST THE LOCAL VARIABLES AND GLOBAL VARIABLES USED THROUGHOUT THIS SCRIPT
-# A. "age" line 12
+# A. "age" line 15 (global variable)
 # A. "n" line 24
 # A. "authorized_test" line 37
 # A. "authorized_final" line 38  
