@@ -1,6 +1,6 @@
 # Pablo Sanchez
 # Python version 2.7.16
-# Self Destruct Is Not An Option
+# Error/Exception Handling
 #
 #
 ###################################################################################################
@@ -88,7 +88,7 @@ def self_destruct(x):
     initiate = raw_input("Enter Self Destruct Confirmation Code: ")
 
     # Compare Rank Codes
-    if initiate == code:
+    while initiate == code:
         print "Self Destruct Initiate Code: ACCEPTED"
         final_code = raw_input("Enter Activation Code: ")
         if final_code == authorized_final:
