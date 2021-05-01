@@ -1,0 +1,5 @@
+State: New Jersey Capitol: Trenton
+State: New York Capitol: Albany
+State: Ohio Capitol: Columbus
+State: California Capitol: Sacramento
+State: Arizona Capitol: Phoenix
