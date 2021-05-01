@@ -22,7 +22,6 @@ states = {}
 #  and separate it into KEY / VALUE pairs.
 # A: The FOR loop is reading each line on the text file and split it using the "," delimeter. The value to the left is the key and to
 # the right becomes the value within the dictionaty which is stored in the "states" list.
-count = 5
 
 # Import State & Capitol in the blank Dictionary
 f = open('states.txt', 'r')
@@ -38,7 +37,7 @@ print ('STATE SEARCH SCRIPT')
 print ('Please enter the name of 5 states to search for.')
 
 # 4. Create a variable called count with an assigned value of 5
-
+count = 5
 
 ##########################################
 # LOOP THE SEARCH & WRITE TO EXTERNAL FILE
@@ -48,13 +47,16 @@ print ('Please enter the name of 5 states to search for.')
 f= open('state_results.txt', 'w+')
 
 # 5. Describe how the WHILE Loop uses the count variable as a control.
-# A:
+# A: WHILE loop looks at the count value which we set it to start as 5. And it will decrement by 1 on each run. Hence as specified in the WHILE
+# statement, it will stop once it reaches 0.
 # 6. How is the count variable updated?
-# A:
+# A: The count variable is update by substracting 1 every time the loop run. We decrement by 1 with a -=1 statement.
 # 7. What is the effect?
-# A:
+# A: The effect is that the 'count' variable will get eventually to 0, and the the WHILE loop will terminate.
 # 8. Explain how states[search] returns a value.
-# A:
+# A: the 'search' variable is entered by the user with a raw_input function. 
+# The later it gets passed as the key for the dictionary to return the value.
+
 
 # Use a Loop to run search 5 times
 while count > 0:
