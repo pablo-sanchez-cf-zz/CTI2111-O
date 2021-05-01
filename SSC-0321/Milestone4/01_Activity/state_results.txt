@@ -1,5 +1,0 @@
-State: New York Capitol: Albany
-State: Florida Capitol: Tallahassee
-State: Arizona Capitol: Phoenix
-State: Ohio Capitol: Columbus
-State: New Jersey Capitol: Trenton
