@@ -24,13 +24,19 @@ states = {}
 # the right becomes the value within the dictionaty which is stored in the "states" list.
 
 # Import State & Capitol in the blank Dictionary
-f = open('states.txt', 'r')
+
+'''f = open('states.txt', 'r')
 
 for line in f:
     (key, val) = line.split(',')
     states[key] = val
 
 f.close()
+'''
+with open ('states.txt', "r") as f:
+    for l in f:
+        (key, val) = l.split(',')
+        states[key] = val
 
 # User must enter the name of the state to search
 print ('STATE SEARCH SCRIPT')
@@ -75,5 +81,5 @@ f.close()
 ###########################################
 
 # 9. Rewrite the LOOP SEARCH Section above (Lines 22 - 28) to utilize with open()
-
+# Completed on lines 36 to 39.
 # 10. Test and confirm your script works before submitting to FSO!
