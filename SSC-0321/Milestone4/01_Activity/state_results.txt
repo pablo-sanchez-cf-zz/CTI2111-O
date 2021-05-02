@@ -1,5 +1,5 @@
 State: New York Capitol: Albany
-State: Florida Capitol: Tallahassee
+State: New Jersey Capitol: Trenton
 State: California Capitol: Sacramento
+State: Arizona Capitol: Phoenix
 State: New Mexico Capitol: Santa Fe
-State: Alabama Capitol: Montgomery
