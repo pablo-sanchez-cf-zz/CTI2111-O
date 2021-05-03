@@ -4,6 +4,7 @@
 
 
 # The wind direction and wind chill in Fahrenheit for the New York, La Guardia Airport.
+# NOTE: replaced Wind Chill with Wind Speed as Wind Chill is no longer available.
 
 import pywapi
 import pprint
